@@ -1,0 +1,3 @@
+#!/bin/sh
+# $0 is the script name, $1 id the first ARG, $2 is second...
+echo -$1 > /sys/devices/bone_capemgr.9/slots
