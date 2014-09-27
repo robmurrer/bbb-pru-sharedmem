@@ -18,7 +18,7 @@
 #define PRU_NUM 	 1
 #define PRU_PROG        "./sharedmem.bin"
 #define PRU_ADDR 0x4A300000
-#define SHAREDRAM_OFFSET 0x00012000
+#define SHAREDRAM_OFFSET 0x00010000
 
 
 int main (void)
