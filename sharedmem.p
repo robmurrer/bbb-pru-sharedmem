@@ -21,7 +21,7 @@ START:
 
 /* wait until sharedmem[0] == 0*/
 WAIT0:
-    mov     r3, 0x12000
+    mov     r3, 0x10000
     lbbo    r4, r3, 0, 4
     qbne    WAIT0, r4, 0
 
